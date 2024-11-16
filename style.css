@@ -1,0 +1,249 @@
+* {
+    margin: 0 auto property;
+    padding: 0;
+    box-sizing: border-box;
+	justify-content: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	 margin: 0 auto property;
+     display: flex;
+      justify-content: center;	
+	 background-image:url(https://t4.ftcdn.net/jpg/06/91/05/19/240_F_691051979_Xr9vx5g4lX59PT27nFe4Y7AHUuGh4i2S.jpg);
+	 
+}
+
+
+.container {
+    max-width: 800px;
+    width: 110%;
+    padding: 30px;
+    background-color: #fff;
+	border: 5px solid #ddd;
+    border-radius: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    background-image:url(https://t4.ftcdn.net/jpg/06/91/05/19/240_F_691051979_Xr9vx5g4lX59PT27nFe4Y7AHUuGh4i2S.jpg);
+	background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+
+.contain {
+   max-width: 800px;
+    width: 110%;
+    padding: 30px;
+    background-color: white;
+	border: 5px solid #ddd;
+    border-radius: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    background-image:url(https://t4.ftcdn.net/jpg/06/91/05/19/240_F_691051979_Xr9vx5g4lX59PT27nFe4Y7AHUuGh4i2S.jpg);
+	background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+.red {
+   max-width: 800px;
+	color:white;
+    width: 110%;
+    padding: 30px;
+    background-color: #fff;
+	border: 5px solid #ddd;
+    border-radius: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    background-image:url(https://t4.ftcdn.net/jpg/06/91/05/19/240_F_691051979_Xr9vx5g4lX59PT27nFe4Y7AHUuGh4i2S.jpg);
+	background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+h1{
+	color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form label {
+    font-weight: bold;
+    color: #555;
+}
+
+form input[type="text"], 
+form input[type="password"], 
+form input[type="number"], 
+form select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 70px;
+    width: 100%;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+form button {
+    padding: 12px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 70px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+th {
+    background-color: grey;
+    color: #fff;
+    font-weight: bold;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.action-buttons  {
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 0 5px;
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.action-buttons .edit-btn {
+    background-color: #28a745;
+}
+
+.action-buttons .edit-btn:hover {
+    background-color: #218838;
+}
+
+.action-buttons .delete-btn {
+    background-color: #dc3545;
+}
+
+.action-buttons .delete-btn:hover {
+    background-color: #c82333;
+}
+
+
+.logout-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+
+.background-container {
+    background-image: url('path/to/your/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.background-container h2, .background-container p {
+    color: #fff;
+}
+p{
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+a{
+    color: lightblue;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+	
